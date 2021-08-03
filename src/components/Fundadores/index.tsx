@@ -164,7 +164,7 @@ function Fundadores () {
 
               <div className="container-fluid">
                 <div className="row" >
-                  <div className="col-md-2" name="col_mais">
+                  <div className="col-md-2" >
 
                     <p className="mais">+</p>
                   </div>
