@@ -197,7 +197,7 @@ function Fundadores () {
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/adriano-gilberti-51908474/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Adriano Gilbert
+                      <i className="fab fa-linkedin-in" ></i> | Adriano Gilbert
                     </a>
                   </p>
                 </Col>
@@ -213,7 +213,7 @@ function Fundadores () {
                   ></img>
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/geraldo-lemos-neto-105850146/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Geraldo Lemos
+                      <i className="fab fa-linkedin-in" ></i> | Geraldo Lemos
                     </a>
                   </p>
                 </Col>
@@ -229,7 +229,7 @@ function Fundadores () {
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/ivone-pick-9359175/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Ivone Pick
+                      <i className="fab fa-linkedin-in" ></i> | Ivone Pick
                     </a>
                   </p>
                 </Col>
@@ -262,7 +262,7 @@ function Fundadores () {
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/guilherme-de-barros-89668220/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Guilherme de Barros
+                      <i className="fab fa-linkedin-in" ></i> | Guilherme de Barros
                     </a>
                   </p>
                 </Col>
@@ -278,7 +278,7 @@ function Fundadores () {
 
                     <p className="nome_fundador">
                       <a href="https://www.linkedin.com/in/marcogandra" className="link_fundador" target="_blank" rel="noreferrer">
-                        <i className="fab fa-linkedin-in" name="social"></i> | Marco Gandra
+                        <i className="fab fa-linkedin-in" ></i> | Marco Gandra
                       </a>
                     </p>
 
@@ -295,7 +295,7 @@ function Fundadores () {
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/ronaldo-jung-076074117/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Ronaldo Yung
+                      <i className="fab fa-linkedin-in" ></i> | Ronaldo Yung
                     </a>
                   </p>
                 </Col>
@@ -311,25 +311,25 @@ function Fundadores () {
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/thiagopagani/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Thiago Pagani
+                      <i className="fab fa-linkedin-in" ></i> | Thiago Pagani
                     </a>
                   </p>
                 </Col>
               </Row>
               </div>
               <div className="row" >
-                      <div className="col-md-6">
-                        <p className="Texto_founders_1">
-                          The world's first developer of immersive games and experiences in this genre. We develop and commercialize electronic games and digital artistic experiences, immersive and interactive, under the Christian theme, which promote, at the same time, entertainment and spirituality. Our goal is to contribute to the development of a new consciousness and a better world.
-                        </p>
-                      </div>
-                      <div className="col-md-6" >
-                        <p className="Texto_founders_2">
-                          <p>We take on the challenge of offering young people and adults a rare opportunity for entertainment and evangelization.</p>
-                          We want to bring the youth back together and strengthen ties with adults with the deep knowledge that Christianity can offer through an immersive experience.
-                        </p>
-                      </div>
-                    </div>
+                <div className="col-md-6">
+                  <p className="Texto_founders_1">
+                    The world's first developer of immersive games and experiences in this genre. We develop and commercialize electronic games and digital artistic experiences, immersive and interactive, under the Christian theme, which promote, at the same time, entertainment and spirituality. Our goal is to contribute to the development of a new consciousness and a better world.
+                  </p>
+                </div>
+                <div className="col-md-6" >
+                  <p className="Texto_founders_2">
+                    <p>We take on the challenge of offering young people and adults a rare opportunity for entertainment and evangelization.</p>
+                    We want to bring the youth back together and strengthen ties with adults with the deep knowledge that Christianity can offer through an immersive experience.
+                  </p>
+                </div>
+              </div>
 
             </TabPane>
           </TabContent>
