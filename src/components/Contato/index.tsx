@@ -127,7 +127,7 @@ function Contato () {
                               Subject
                             </p>
                           </Label>
-                          <Input type="text" name="text" id="text" />
+                          <Input id="Subject" type="text" name="Subject" required={true}/>
                         </FormGroup>
 
                       <FormGroup>
