@@ -76,7 +76,7 @@ Of course, this meeting can and should be within ourselves, but let us be honest
 
                         </p>
                       </div>
-                      <div className="col-md-6" name="div_flex_caixa2">
+                      <div className="col-md-6" >
                       </div>
                     </div>
                 </div>
