@@ -18,11 +18,11 @@ const Home: React.FC = () => {
     <div >
 
       <style>{` 
-        div[name="sarjeta"] {
+        .sarjeta{
             background-color: #cecece;
             
         }   
-        div[name="principal"] {
+        .principal {
           padding: 0;
           margin-right: 0;
           margin-left: 0; 
@@ -37,26 +37,28 @@ const Home: React.FC = () => {
         <meta name="description" content="Transcender Studios" />
         <link rel="icon" href="./assets/favicon.ico" />
 
-
       </Head>
 
       <main >
-        <div className="container-fluid">
-          <div className="row" >
-            <div className="col-md-1" name="sarjeta"></div>
-            <div className="col-md-10" name="principal">
-              < Cabecalho/>
-              <Social/>
-              <Carrocel/>
-              <Caixa1 />
-              <Caixa2 />
-              <Caixa3 />
-              <Fundadores/>
-              <Contato/>
-              <Rodape/>
+        <div className="sarjeta">
+          <div className="container-fluid">
+            <div className="row" >
+              <div className="col-md-1" ></div>
 
+                <div className="col-md-10 principal">
+                  < Cabecalho/>
+                  <Social/>
+                  <Carrocel/>
+                  <Caixa1 />
+                  <Caixa2 />
+                  <Caixa3 />
+                  <Fundadores/>
+                  <Contato/>
+                  <Rodape/>
+                </div>
+
+              <div className="col-md-1" ></div>
             </div>
-            <div className="col-md-1" name="sarjeta"></div>
           </div>
         </div>
 
