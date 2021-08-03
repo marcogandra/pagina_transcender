@@ -59,7 +59,7 @@ const Carrocel = (props) => {
       `}</style>
 
       <Card className="shadow" name="Texto_Card_Carrocel">
-        <CardBody name="carrocel" name="cartao_carrocel">
+        <CardBody name="cartao_carrocel">
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
