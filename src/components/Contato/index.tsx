@@ -127,7 +127,7 @@ function Contato () {
                               Subject
                             </p>
                           </Label>
-                          <Input type="input" name="input" id="input" />
+                          <Input type="text" name="text" id="text" />
                         </FormGroup>
 
                       <FormGroup>
