@@ -31,7 +31,7 @@ const Cabecalho = (props) => {
     <div>
       <style>{` 
 
-        img[name="logo"] {
+        .logo {
           width: 60%;
           margin-top: 0rem !important;   
           padding: 10px; 
@@ -63,7 +63,7 @@ const Cabecalho = (props) => {
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
               <Navbar color="light" light expand="md" >
-                <NavbarBrand href="/"><img src='./assets/logo_transcender_2.png' name="logo" /></NavbarBrand>
+                <NavbarBrand href="/"><img src='./assets/logo_transcender_2.png' className="logo" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
 

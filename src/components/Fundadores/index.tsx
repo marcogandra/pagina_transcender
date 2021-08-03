@@ -291,7 +291,7 @@ function Fundadores () {
                   ></img>
 
                   <p className="nome_fundador">
-                    <a href="https://www.linkedin.com/" className="link_fundador" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/ronaldo-jung-076074117/" className="link_fundador" target="_blank" rel="noreferrer">
                       <i className="fab fa-linkedin-in" name="social"></i> | Ronaldo Yung
                     </a>
                   </p>
