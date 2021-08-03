@@ -26,7 +26,7 @@ function Social () {
             margin: 0;            
         }   
         
-        i[name="social"] {
+        .social {
           color:#fff
         }
       `}</style>
@@ -44,8 +44,8 @@ function Social () {
               >
                 {' '}
                 <span className="btn-inner--icon" >
-                  <a href="http://facebook.com" target="_blank" rel="noreferrer">
-                    <i className="fab fa-facebook" name="social"></i>
+                  <a href="http://facebook.com" target="_blank" rel="noreferrer" className="social">
+                    <i className="fab fa-facebook" ></i>
                   </a>
                 </span>
               </Button>
@@ -57,8 +57,8 @@ function Social () {
               >
                 {' '}
                 <span className="btn-inner--icon">
-                  <a href="https://twitter.com/twitter" target="_blank" rel="noreferrer">
-                    <i className="fab fa-twitter" name="social"></i>
+                  <a href="https://twitter.com/twitter" target="_blank" rel="noreferrer" className="social">
+                    <i className="fab fa-twitter" ></i>
                   </a>
                 </span>
               </Button>
@@ -70,8 +70,8 @@ function Social () {
               >
                 {' '}
                 <span className="btn-inner--icon">
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                    <i className="fab fa-instagram" name="social"></i>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="social">
+                    <i className="fab fa-instagram" ></i>
                   </a>
                 </span>
               </Button>
@@ -83,8 +83,8 @@ function Social () {
               >
                 {' '}
                 <span className="btn-inner--icon">
-                  <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                    <i className="fab fa-youtube" name="social"></i>
+                  <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" className="social">
+                    <i className="fab fa-youtube" ></i>
                   </a>
                 </span>
               </Button>
@@ -95,8 +95,8 @@ function Social () {
               >
                 {' '}
                 <span className="btn-inner--icon">
-                  <a href="https://www.linkedin.com/company/79674030/admin/" target="_blank" rel="noreferrer">
-                    <i className="fab fa-linkedin-in" name="social"></i>
+                  <a href="https://www.linkedin.com/company/79674030/admin/" target="_blank" rel="noreferrer" className="social">
+                    <i className="fab fa-linkedin-in" ></i>
                   </a>
 
                 </span>
