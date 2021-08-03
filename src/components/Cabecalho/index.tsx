@@ -58,7 +58,7 @@ const Cabecalho = (props) => {
       `}</style>
 
       <Card className="shadow" >
-        <CardBody name="cabecalho" name="cartao">
+        <CardBody  name="cartao">
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
