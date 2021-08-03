@@ -153,6 +153,9 @@ function Fundadores () {
           text-shadow: 1px 2px 5px #000;
         }
 
+        .fotos{
+          text-align: center;
+        }
     
 
       `}</style>
@@ -181,7 +184,7 @@ function Fundadores () {
                 </div>
               </div>
 
-              <center>
+              <div className="fotos">
               <Row name="linha">
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                   <h4 name="purpura"><b>CEO</b></h4>
@@ -313,7 +316,7 @@ function Fundadores () {
                   </p>
                 </Col>
               </Row>
-              </center>
+              </div>
               <div className="row" >
                       <div className="col-md-6">
                         <p className="Texto_founders_1">
