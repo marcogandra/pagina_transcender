@@ -2,6 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TranscenderLogo from '../../assets/logo_transcender_2.png'
+import us from "./assets/United-States-flat-icon.png"
+import es from "./assets/United-States-flat-icon.png"
+import br from "./assets/United-States-flat-icon.png"
 
 // import { Estilo } from './styles'
 
@@ -66,7 +69,7 @@ const Cabecalho = (props) => {
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
               <Navbar color="light" light expand="md" >
-                <NavbarBrand href="/"><Image src={TranscenderLogo} alt="Picture of the author" /></NavbarBrand>
+                <NavbarBrand href="/"><Image src={TranscenderLogo} alt="Transcender Studios" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
 
@@ -87,27 +90,15 @@ const Cabecalho = (props) => {
                       </DropdownToggle>
                       <DropdownMenu right>
                         <DropdownItem>
-                          <img
-                            alt="..."
-                            src="./assets/United-States-flat-icon.png"
-                            className="bandeira"
-                          ></img>{'  '}
+                          <Image src={us} alt="English" />{'  '}
                           English
                         </DropdownItem>
                         <DropdownItem>
-                        <img
-                            alt="..."
-                            src="./assets/Mexico-flat-icon.png"
-                            className="bandeira"
-                          ></img>{'  '}
+                          <Image src={es} alt="Español" />{'  '}
                           Español
                         </DropdownItem>
                         <DropdownItem>
-                        <img
-                            alt="..."
-                            src="./assets/Brazil-flat-icon.png"
-                            className="bandeira"
-                          ></img>{'  '}
+                          <Image src={br} alt="Português" />{'  '}
                           Português
                         </DropdownItem>
 
