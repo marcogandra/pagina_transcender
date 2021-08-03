@@ -61,7 +61,7 @@ const Caixa3 = (props) => {
       `}</style>
 
       <Card className="shadow" >
-        <CardBody name="Caixa3" name="cartao_caixa3">
+        <CardBody  name="cartao_caixa3">
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 

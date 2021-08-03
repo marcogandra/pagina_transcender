@@ -61,7 +61,7 @@ const Caixa2 = (props) => {
       `}</style>
 
       <Card className="shadow" >
-        <CardBody name="Caixa2" name="cartao_caixa2">
+        <CardBody name="cartao_caixa2">
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
@@ -76,7 +76,7 @@ Of course, this meeting can and should be within ourselves, but let us be honest
 
                         </p>
                       </div>
-                      <div className="col-md-6"  name="div_flex_caixa2">
+                      <div className="col-md-6" name="div_flex_caixa2">
                       </div>
                     </div>
                 </div>
