@@ -39,7 +39,7 @@ function Fundadores () {
           font-size: 29px;             
                
         }
-        h4[name="purpura"] {
+        .purpura {
           color: #ffffff;
           font-family: "Roboto", sans-serif;
         }  
@@ -187,7 +187,7 @@ function Fundadores () {
               <div className="fotos">
               <Row name="linha">
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                  <h4 name="purpura"><b>CEO</b></h4>
+                  <h4 className="purpura"><b>CEO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -203,7 +203,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                <h4 name="purpura"><b>CIR</b></h4>
+                <h4 className="purpura"><b>CIR</b></h4>
 
                   <img
                     alt="..."
@@ -219,7 +219,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                <h4 name="purpura"><b>CFO</b></h4>
+                <h4 className="purpura"><b>CFO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -235,7 +235,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                  <h4 name="purpura"><b>COO</b></h4>
+                  <h4 className="purpura"><b>COO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -252,7 +252,7 @@ function Fundadores () {
 
               <Row name="linha">
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                <h4 name="purpura"><b>CSPO</b></h4>
+                <h4 className="purpura"><b>CSPO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -268,7 +268,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                  <h4 name="purpura"><b>CTO</b></h4>
+                  <h4 className="purpura"><b>CTO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -285,7 +285,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                  <h4 name="purpura"><b>CLO</b></h4>
+                  <h4 className="purpura"><b>CLO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
@@ -301,7 +301,7 @@ function Fundadores () {
                 </Col>
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
-                 <h4 name="purpura"><b>CMO</b></h4>
+                 <h4 className="purpura"><b>CMO</b></h4>
                   <img
                     alt="..."
                     className=" img-fluid rounded-circle shadow-lg"
