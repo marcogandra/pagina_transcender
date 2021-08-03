@@ -1,7 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React, { useState } from 'react'
+import Image from 'next/image'
+import TranscenderLogo from '../../assets/logo_transcender_2.png'
+
 // import { Estilo } from './styles'
-// import TranscenderLogo from '../../assets/logo_transcender_2.png'
+
 import {
   Collapse,
   Navbar,
@@ -63,7 +66,7 @@ const Cabecalho = (props) => {
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
               <Navbar color="light" light expand="md" >
-                <NavbarBrand href="/"><img src='./assets/logo_transcender_2.png' className="logo" /></NavbarBrand>
+                <NavbarBrand href="/"><Image src={TranscenderLogo} alt="Picture of the author" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
 
