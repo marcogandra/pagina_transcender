@@ -59,7 +59,7 @@ const Caixa1 = (props) => {
           bottom: 0;    
         }
 
-        div[name="div_flex_caixa1"]{
+        .div_flex_caixa1{
           position:relative;
         }
 
@@ -78,9 +78,9 @@ const Caixa1 = (props) => {
 
                 <div className="container-fluid" >
                   <div className="row" >
-                    <div className="col-md-6" name="div_flex_caixa1">
-                      
-                    </div>
+                    <div className="col-md-6" >
+
+                    </div >
                     <div className="col-md-6" >
                       <p className="Texto_Caixa1">
                         We are <span className="fundo_laranja_caixa1">the world's first independent studio developer of games and immersive experiences in Virtual Reality with Christian theme</span>, which promote, at the same time, entertainment and spirituality.
