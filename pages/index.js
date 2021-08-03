@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Principal.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Cabecalho from '../components/Cabecalho'
+
 
 export default function Home() {
   return (
