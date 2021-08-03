@@ -13,6 +13,7 @@ import Rodape from '../components/Rodape'
 // import { Container } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
+  const name: any = ''
   return (
     <div >
 
@@ -37,10 +38,10 @@ const Home: React.FC = () => {
         <link rel="icon" href="./assets/favicon.ico" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet" />        
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />        
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+
       </Head>
 
       <main >
