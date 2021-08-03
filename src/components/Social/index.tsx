@@ -32,7 +32,7 @@ function Social () {
       `}</style>
 
       <Card className="shadow" >
-        <CardBody name="social" name="cartao_social">
+        <CardBody name="cartao_social">
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
