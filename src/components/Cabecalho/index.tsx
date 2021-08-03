@@ -39,7 +39,7 @@ const Cabecalho = (props) => {
           height: auto;
         }     
         
-        img[name="bandeira"] {
+        .bandeira {
           width: 20%;
         }     
         
@@ -87,7 +87,7 @@ const Cabecalho = (props) => {
                           <img
                             alt="..."
                             src="./assets/United-States-flat-icon.png"
-                            name="bandeira"
+                            className="bandeira"
                           ></img>{'  '}
                           English
                         </DropdownItem>
@@ -95,7 +95,7 @@ const Cabecalho = (props) => {
                         <img
                             alt="..."
                             src="./assets/Mexico-flat-icon.png"
-                            name="bandeira"
+                            className="bandeira"
                           ></img>{'  '}
                           Español
                         </DropdownItem>
@@ -103,7 +103,7 @@ const Cabecalho = (props) => {
                         <img
                             alt="..."
                             src="./assets/Brazil-flat-icon.png"
-                            name="bandeira"
+                            className="bandeira"
                           ></img>{'  '}
                           Português
                         </DropdownItem>
