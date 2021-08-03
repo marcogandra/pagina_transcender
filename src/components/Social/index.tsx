@@ -16,7 +16,7 @@ import {
 function Social () {
   const [hTabsIcons, setHTabsIcons] = React.useState('hTabsIcons-1')
   return (
-    <div name="social">
+    <div className="social">
 
       <style>{` 
 
