@@ -244,7 +244,7 @@ function Fundadores () {
                   ></img>
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/luis-constancio/" className="link_fundador" target="_blank" rel="noreferrer">
-                      <i className="fab fa-linkedin-in" name="social"></i> | Luiz Constâncio
+                      <i className="fab fa-linkedin-in" ></i> | Luiz Constâncio
                     </a>
                   </p>
                 </Col>
