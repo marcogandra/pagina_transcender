@@ -169,7 +169,7 @@ function Fundadores () {
                     <p className="mais">+</p>
                   </div>
 
-                  <div className="col-md-10" name="esquerda">
+                  <div className="col-md-10" >
                     <p className="linha1"><strong>
                       GET TO KNOW THE
                       <span className="linha2">TRANSCENDERS</span>
