@@ -68,7 +68,7 @@ const Caixa3 = (props) => {
               <div className="bgImagem_Caixa3">
                 <div className="container-fluid">
                     <div className="row" >
-                      <div className="col-md-6" name="div_flex_caixa3">
+                      <div className="col-md-6">
                       </div>
                       <div className="col-md-6" >
                         <p className="Texto_Caixa3"><span className="aspas"><strong>“</strong></span>OUR GOAL IS TO CONTRIBUTE TO THE DEVELOPMENT OF A NEW CONSCIOUSNESS AND <span className="fundo_laranja_caixa3">A BETTER WORLD.</span><span className="aspas"><strong>”</strong></span></p>
