@@ -214,7 +214,6 @@ function Fundadores () {
                     alt="Adriano"
                     className=" img-fluid rounded-circle"
                     src={ adriano }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -235,7 +234,6 @@ function Fundadores () {
                     alt="Geraldo"
                     className=" img-fluid rounded-circle"
                     src={ geraldo }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -252,7 +250,6 @@ function Fundadores () {
                     alt="Ivone"
                     className=" img-fluid rounded-circle"
                     src={ ivone }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -270,7 +267,6 @@ function Fundadores () {
                     alt="Luiz"
                     className=" img-fluid rounded-circle"
                     src={ luiz }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -289,7 +285,6 @@ function Fundadores () {
                     alt="Guilherme"
                     className=" img-fluid rounded-circle"
                     src={ guilherme }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -307,7 +302,6 @@ function Fundadores () {
                     alt="Marco"
                     className=" img-fluid rounded-circle"
                     src={ marco }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -326,7 +320,6 @@ function Fundadores () {
                     alt="Ronaldo"
                     className=" img-fluid rounded-circle"
                     src={ ronaldo }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
@@ -344,7 +337,6 @@ function Fundadores () {
                     alt="Thiago"
                     className=" img-fluid rounded-circle"
                     src={ thiago }
-                    style={ style }
                     width={150} 
                     height={150}
                   />
