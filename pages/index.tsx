@@ -6,7 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Cabecalho from './components/Cabecalho'
 import Social from './components/Social'
 import Carrocel from './components/Carrocel'
-import Caixa1  from './components/Caixa1'
+import Caixa1 from './components/Caixa1'
+import Caixa2 from './components/Caixa2'
+import Caixa3 from './components/Caixa3'
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
                 <Social />
                 <Carrocel />
                 <Caixa1 />
+                <Caixa2 />
+                <Caixa3 />                                
               </div>
 
               <div className="col-md-1" >
