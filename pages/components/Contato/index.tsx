@@ -36,15 +36,13 @@ function Contato () {
 
       <style>{`     
         .mark16{
-          padding-top: 40px;
-          padding-bottom: 40px;
           font-family: "Roboto", sans-serif;
           font-size: 20px; 
           font-weight:400; 
-          padding-top: 75px;
-          padding-left: 75px;            
-          padding-right: 75px;
-          padding-bottom: 90px;
+          padding-top: 67px;
+          padding-left: 60px;            
+          padding-right: 60px;
+          padding-bottom: 67px;
           color: #fff;
           text-align: justify;
           background-color: #662483;
@@ -144,11 +142,12 @@ function Contato () {
                       </FormGroup>
                     </form>
                   </div>
-                  <div className="col-md-5" >
+                  <div className="col-md-4" >
                     <p className="mark16">
-                      "Go into all the world and preach the gospel to every creature." Mark 16:15
+                      &quot;Go into all the world and preach the gospel to every creature.&quot; <span>Mark 16:15</span>
                     </p>
                   </div>
+                  <div className="col-md-1" ></div>
 
                 </div>
               </div>

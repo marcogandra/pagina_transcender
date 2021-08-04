@@ -9,6 +9,7 @@ import Carrocel from './components/Carrocel'
 import Caixa1 from './components/Caixa1'
 import Caixa2 from './components/Caixa2'
 import Caixa3 from './components/Caixa3'
+import Contato from './components/Contato'
 
 export default function Home() {
   return (
@@ -38,7 +39,8 @@ export default function Home() {
                 <Carrocel />
                 <Caixa1 />
                 <Caixa2 />
-                <Caixa3 />                                
+                <Caixa3 />
+                <Contato />                                 
               </div>
 
               <div className="col-md-1" >
