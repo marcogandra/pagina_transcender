@@ -83,7 +83,7 @@ const Caixa1 = (props) => {
                     </div >
                     <div className="col-md-6" >
                       <p className="Texto_Caixa1">
-                        We are <span className="fundo_laranja_caixa1">the world's first independent studio developer of games and immersive experiences in Virtual Reality with Christian theme</span>, which promote, at the same time, entertainment and spirituality.
+                        We are <span className="fundo_laranja_caixa1">the world@apos;s first independent studio developer of games and immersive experiences in Virtual Reality with Christian theme</span>, which promote, at the same time, entertainment and spirituality.
                       </p>
                     </div>
                   </div>
