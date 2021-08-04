@@ -1,4 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
+import adriano from '../../../public/assets/adriano-gilberti_transcender.png'
+import geraldo from '../../../public/assets/geraldo-lemos_transcender-studios.jpg'
+import ivone from '../../../public/assets/ivone-pick_transcender-studios.jpg'
+import luiz from '../../../public/assets/luiz.jpg'
+import guilherme from '../../../public/assets/Guilherme-barros-trasncender-studios.jpg'
+import marco from '../../../public/assets/marco-gandra_transcender-studios.jpg'
+import ronaldo from '../../../public/assets/ronaldo-young_transcender-studios.jpg'
+import thiago from '../../../public/assets/thiago-pagani_transcender-studios.jpg'
 
 // reactstrap components
 import {
@@ -200,12 +209,17 @@ function Fundadores () {
               <Row name="linha">
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                   <h4 className="purpura"><b>CEO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/adriano-gilberti_transcender.png"
+
+                  <Image
+                    alt="Adriano"
+                    className=" img-fluid rounded-circle"
+                    src={ adriano }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
+                  
+
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/adriano-gilberti-51908474/" className="link_fundador" target="_blank" rel="noreferrer">
@@ -217,12 +231,14 @@ function Fundadores () {
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                 <h4 className="purpura"><b>CIR</b></h4>
 
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/geraldo-lemos_transcender-studios.jpg"
+                  <Image
+                    alt="Geraldo"
+                    className=" img-fluid rounded-circle"
+                    src={ geraldo }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/geraldo-lemos-neto-105850146/" className="link_fundador" target="_blank" rel="noreferrer">
                       <i className="fab fa-linkedin-in" ></i> | Geraldo Lemos
@@ -232,12 +248,14 @@ function Fundadores () {
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                 <h4 className="purpura"><b>CFO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/ivone-pick_transcender-studios.jpg"
+                  <Image
+                    alt="Ivone"
+                    className=" img-fluid rounded-circle"
+                    src={ ivone }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/ivone-pick-9359175/" className="link_fundador" target="_blank" rel="noreferrer">
@@ -248,12 +266,14 @@ function Fundadores () {
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                   <h4 className="purpura"><b>COO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/luiz.jpg"
+                  <Image
+                    alt="Luiz"
+                    className=" img-fluid rounded-circle"
+                    src={ luiz }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/luis-constancio/" className="link_fundador" target="_blank" rel="noreferrer">
                       <i className="fab fa-linkedin-in" ></i> | Luiz Constâncio
@@ -265,12 +285,14 @@ function Fundadores () {
               <Row name="linha">
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                 <h4 className="purpura"><b>CSPO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/Guilherme-barros-trasncender-studios.jpg"
+                <Image
+                    alt="Guilherme"
+                    className=" img-fluid rounded-circle"
+                    src={ guilherme }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/guilherme-de-barros-89668220/" className="link_fundador" target="_blank" rel="noreferrer">
@@ -281,12 +303,14 @@ function Fundadores () {
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                   <h4 className="purpura"><b>CTO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/marco-gandra_transcender-studios.jpg"
+                  <Image
+                    alt="Marco"
+                    className=" img-fluid rounded-circle"
+                    src={ marco }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
 
                     <p className="nome_fundador">
                       <a href="https://www.linkedin.com/in/marcogandra" className="link_fundador" target="_blank" rel="noreferrer">
@@ -298,12 +322,14 @@ function Fundadores () {
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                   <h4 className="purpura"><b>CLO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/ronaldo-young_transcender-studios.jpg"
+                  <Image
+                    alt="Ronaldo"
+                    className=" img-fluid rounded-circle"
+                    src={ ronaldo }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/ronaldo-jung-076074117/" className="link_fundador" target="_blank" rel="noreferrer">
@@ -314,12 +340,14 @@ function Fundadores () {
 
                 <Col className=" mt-5 mt-sm-0" sm="3" xs="6">
                  <h4 className="purpura"><b>CMO</b></h4>
-                  <img
-                    alt="..."
-                    className=" img-fluid rounded-circle shadow-lg"
-                    src="./assets/thiago-pagani_transcender-studios.jpg"
+                 <Image
+                    alt="Thiago"
+                    className=" img-fluid rounded-circle"
+                    src={ thiago }
                     style={ style }
-                  ></img>
+                    width={150} 
+                    height={150}
+                  />
 
                   <p className="nome_fundador">
                     <a href="https://www.linkedin.com/in/thiagopagani/" className="link_fundador" target="_blank" rel="noreferrer">
@@ -332,7 +360,7 @@ function Fundadores () {
               <div className="row" >
                 <div className="col-md-6">
                   <p className="Texto_founders_1">
-                    The world's first developer of immersive games and experiences in this genre. We develop and commercialize electronic games and digital artistic experiences, immersive and interactive, under the Christian theme, which promote, at the same time, entertainment and spirituality. Our goal is to contribute to the development of a new consciousness and a better world.
+                    The world&rsquo;s first developer of immersive games and experiences in this genre. We develop and commercialize electronic games and digital artistic experiences, immersive and interactive, under the Christian theme, which promote, at the same time, entertainment and spirituality. Our goal is to contribute to the development of a new consciousness and a better world.
                   </p>
                 </div>
                 <div className="col-md-6" >
