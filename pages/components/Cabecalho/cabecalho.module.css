@@ -21,13 +21,7 @@
     text-shadow: 2px 3px 5px #cecece;
 }  
 
-.menu {
-    padding: 0px;
-    margin: 0px;
-    /* centraliza na vertical */
-    float: right;
-    display: flex; 
-}
+
 
 .lingua {
     display: flex;

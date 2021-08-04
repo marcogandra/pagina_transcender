@@ -16,6 +16,15 @@ const Caixa1 = (props) => {
     <>
 
       <style>{` 
+        .menu {
+          padding: 0px;
+          margin: 0px;
+          /* centraliza na vertical */
+          float: right;
+          display: flex; 
+          color: #f00;
+        }
+
 
         div[name="cartao_caixa1"] {
             background-color: #662483;

@@ -36,27 +36,33 @@ const Cabecalho = (props) => {
 
   return (
     <div>
+      <style>{`   
+        .menu {
+          padding-top: 100px;
+          margin: 0px;
+          /* centraliza na vertical */
+          float: right;
+          display: flex; 
+          color: #f00;
+        }         
 
+      `}</style>
       <Card className="shadow" >
         <CardBody className={styles.cartao}>
 
           <div className="row" >
             <div className="col-md-6" >
               <span className={styles.logo}>
-                <Image src={TranscenderLogo} alt="Transcender Studios" width={570} height={240.6}/>
+                <Image src={TranscenderLogo} alt="Transcender Studios" width={300} height={126.63}/>
               </span>
             </div>
             <div className="col-md-2" ></div>
             <div className="col-md-4" >
 
-              <div className="row" > &nbsp;</div>
-              <div className="row" > &nbsp;</div>
-              <div className="row" > &nbsp;</div>
-              <div className="row" > &nbsp;</div>
-              <div className="row" > &nbsp;</div>              
+            <div className="row" >
               
 
-              <Navbar color="light" light expand="md" className={styles.menu}>
+              <Navbar color="light " light expand="md" >
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar >
                   <Nav className="mr-auto" navbar >
@@ -106,6 +112,7 @@ const Cabecalho = (props) => {
                 </Collapse>
               </Navbar>
 
+            </div>
             </div>
           </div>
         </CardBody>
