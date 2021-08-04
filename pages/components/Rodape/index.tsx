@@ -43,11 +43,24 @@ function Rodape () {
 
         .logo_branca {
           width: 70%;
-          padding: 10px;
           float: right;
           padding: 30px;
       }
 
+      @media (max-width: 1000px) {
+        .logo_branca{
+          float:center; 
+          text-align:center; 
+          float: center; 
+          padding: 0px;
+          padding-right: 100px
+
+          margin: 30px;   
+           
+          display: flex;   
+        }
+
+      }  
 
       `}</style>
 

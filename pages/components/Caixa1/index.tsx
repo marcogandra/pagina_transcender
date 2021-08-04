@@ -80,6 +80,16 @@ const Caixa1 = (props) => {
         @media (max-width: 1000px) {
           .image_mulhe1{display: none;}
 
+          .Texto_Caixa1{
+            padding: 0px;
+            padding-top: 80px;
+            padding-bottom: 50px;
+            margin:  0px;
+            float:center; 
+            text-align:center;
+  
+          }          
+
         }        
 
       `}</style>

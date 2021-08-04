@@ -177,6 +177,30 @@ function Fundadores () {
         .flexivel{
           display: flex;
         }
+
+        @media (max-width: 1000px) {
+
+          .mais{display: none;}
+          .linha2{
+            font-size: 60px;
+            padding-top: 10px;
+          }
+          .Texto_founders_1{
+            padding: 20px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+            margin:  0px;
+            float:center; 
+            text-align: justify;            
+          }
+          .Texto_founders_2{
+            padding: 20px;
+            padding-bottom: 50px;
+            margin:  0px;
+            float:center; 
+            text-align: justify;            
+          }          
+        }
     
 
       `}</style>

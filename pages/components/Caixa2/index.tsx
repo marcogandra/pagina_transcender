@@ -42,11 +42,7 @@ const Caixa2 = (props) => {
 
         }
 
-        .bgImagem_Caixa2{
-          background: url("./assets/mulher02.png") right center no-repeat ;
-          height: auto;
-          background-size: 750px ;
-        }
+
 
         img[name="imagem_caixa2"] {
           vertical-align: bottom;     
@@ -70,6 +66,18 @@ const Caixa2 = (props) => {
 
         @media (max-width: 1000px) {
           .image_mulhe2{display: none;}
+
+          .Texto_Caixa2{
+            padding: 0px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+            margin:  0px;
+            float:center; 
+            text-align:center;
+            height: 600px;
+
+          }          
+
 
         }   
 

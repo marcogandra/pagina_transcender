@@ -64,6 +64,15 @@ const Caixa3 = (props) => {
         @media (max-width: 1000px) {
           .image_mulhe3{display: none;}
 
+          .Texto_Caixa3{
+            padding: 0px;
+            padding-top: 150px;
+            padding-bottom: 50px;
+            margin:  0px;
+            float:center; 
+            text-align:center;
+
+          }          
         }        
 
       `}</style>
