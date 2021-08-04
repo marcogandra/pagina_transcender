@@ -5,6 +5,7 @@ import styles from '../styles/Principal.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Cabecalho from './components/Cabecalho'
 import Social from './components/Social'
+import Carrocel from './components/Carrocel'
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
               <div className="col-md-10 principal">
                 <Cabecalho />
                 <Social />
+                <Carrocel />
               </div>
 
               <div className="col-md-1" >
