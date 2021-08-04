@@ -10,6 +10,7 @@ import Caixa1 from './components/Caixa1'
 import Caixa2 from './components/Caixa2'
 import Caixa3 from './components/Caixa3'
 import Contato from './components/Contato'
+import Rodape from './components/Rodape'
 
 export default function Home() {
   return (
@@ -40,7 +41,8 @@ export default function Home() {
                 <Caixa1 />
                 <Caixa2 />
                 <Caixa3 />
-                <Contato />                                 
+                <Contato />  
+                <Rodape />                                                 
               </div>
 
               <div className="col-md-1" >

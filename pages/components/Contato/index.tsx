@@ -37,15 +37,14 @@ function Contato () {
       <style>{`     
         .mark16{
           font-family: "Roboto", sans-serif;
-          font-size: 20px; 
-          font-weight:400; 
-          padding-top: 67px;
-          padding-left: 60px;            
-          padding-right: 60px;
-          padding-bottom: 67px;
-          color: #fff;
+          font-size: 30px; 
+          font-weight:500; 
+          padding-top: 10px;
+          padding-left: 10px;            
+          padding-right: 10px;
+          padding-bottom: 10px;
+          color: #e94e1b;
           text-align: justify;
-          background-color: #662483;
           margin-top: 40px;
         }  
 
