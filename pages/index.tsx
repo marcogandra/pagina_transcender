@@ -9,6 +9,7 @@ import Carrocel from './components/Carrocel'
 import Caixa1 from './components/Caixa1'
 import Caixa2 from './components/Caixa2'
 import Caixa3 from './components/Caixa3'
+import Fundadores from './components/Fundadores'
 import Contato from './components/Contato'
 import Rodape from './components/Rodape'
 
@@ -41,6 +42,7 @@ export default function Home() {
                 <Caixa1 />
                 <Caixa2 />
                 <Caixa3 />
+                <Fundadores />                
                 <Contato />  
                 <Rodape />                                                 
               </div>
