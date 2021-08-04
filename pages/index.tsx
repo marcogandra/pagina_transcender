@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Principal.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Cabecalho from './components/Cabecalho'
+import Social from './components/Social'
 
 export default function Home() {
   return (
@@ -19,20 +20,21 @@ export default function Home() {
       </Head>
 
       <main >
-        <div className="sarjeta">
+        <div className={styles.sarjeta}>
           <div className="container-fluid">
 
             <div className="row" >
               <div className="col-md-1" >
-                1
+                
               </div>
 
               <div className="col-md-10 principal">
                 <Cabecalho />
+                <Social />
               </div>
 
               <div className="col-md-1" >
-                3
+                
               </div>
             </div>
 
