@@ -1,4 +1,7 @@
 module.exports = (req, res) => {
     const { name = 'World' } = req.query;
-    res.status(200).send(`Hello ${NEXT_PUBLIC_NOME}!`);
+
+    nome_eu = process.env.nome
+
+    res.status(200).send(`Hello ${nome_eu}!`);
   };
