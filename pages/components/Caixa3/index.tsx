@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import mulher3 from "../../../public/assets/mulher03.png"
 import {
   UncontrolledCarousel,
   Row,
@@ -23,9 +25,7 @@ const Caixa3 = (props) => {
             margin: 0;
         } 
         
-        .bgImagem_Caixa3{
-          background: url("./assets/mulher03.png") left center no-repeat;
-        }
+
 
         .Texto_Caixa3{
           font-family: "Roboto", sans-serif;
@@ -42,10 +42,7 @@ const Caixa3 = (props) => {
 
         }
 
-        .bgImagem_Caixa3{
-          background: url("./assets/mulher03.png") left  no-repeat;
-          background-position: left ;
-        }
+
 
         .fundo_laranja_caixa3{
           display: inline;
@@ -56,7 +53,18 @@ const Caixa3 = (props) => {
           display: inline;
           font-size: 40px;
         }
+        .image_mulhe3{
+          position:absolute; 
+          bottom: 0; 
+          margin: 0;
+          padding: 0;  
+          display: flex;        
+        }   
 
+        @media (max-width: 1000px) {
+          .image_mulhe3{display: none;}
+
+        }        
 
       `}</style>
 
@@ -65,17 +73,20 @@ const Caixa3 = (props) => {
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
-              <div className="bgImagem_Caixa3">
-                <div className="container-fluid">
-                    <div className="row" >
-                      <div className="col-md-6">
-                      </div>
-                      <div className="col-md-6" >
-                        <p className="Texto_Caixa3"><span className="aspas"><strong>“</strong></span>OUR GOAL IS TO CONTRIBUTE TO THE DEVELOPMENT OF A NEW CONSCIOUSNESS AND <span className="fundo_laranja_caixa3">A BETTER WORLD.</span><span className="aspas"><strong>”</strong></span></p>
-                      </div>
-                    </div>
-                  </div>
+
+              <div className="row" >
+                <div className="col-md-6">
+                  <span className="image_mulhe3">
+                      <Image src={mulher3} alt="Transcender Studios" />  
+                    </span>                        
+                </div>
+                <div className="col-md-6" >
+                  <p className="Texto_Caixa3"><span className="aspas"><strong>“</strong></span>OUR GOAL IS TO CONTRIBUTE TO THE DEVELOPMENT OF A NEW CONSCIOUSNESS AND <span className="fundo_laranja_caixa3">A BETTER WORLD.</span><span className="aspas"><strong>”</strong></span></p>
+                </div>
               </div>
+
+
+
 
               
             </TabPane>

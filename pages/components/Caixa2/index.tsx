@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import mulher2 from "../../../public/assets/mulher02.png"
 import {
   UncontrolledCarousel,
   Row,
@@ -58,6 +60,19 @@ const Caixa2 = (props) => {
           position:relative;
         }  
 
+        .image_mulhe2{
+          position:absolute; 
+          bottom: 0; 
+          margin: 0;
+          padding: 0;  
+          display: flex;        
+        }   
+
+        @media (max-width: 1000px) {
+          .image_mulhe2{display: none;}
+
+        }   
+
       `}</style>
 
       <Card className="shadow" >
@@ -65,7 +80,7 @@ const Caixa2 = (props) => {
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
-              <div className="bgImagem_Caixa2">
+              <div >
 
                 <div className="container-fluid">
                     <div className="row" >
@@ -77,6 +92,10 @@ Of course, this meeting can and should be within ourselves, but let us be honest
                         </p>
                       </div>
                       <div className="col-md-6" >
+                        <span className="image_mulhe2">
+                          <Image src={mulher2} alt="Transcender Studios" />  
+                        </span>
+                        
                       </div>
                     </div>
                 </div>

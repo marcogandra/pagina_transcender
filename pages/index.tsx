@@ -19,7 +19,8 @@ export default function Home() {
       <Head>
         <title>Transcender Studios</title>
         <meta name="description" content="Transcender Studios" />
-        <link rel="icon" href="./assets/favicon.ico" />
+        <link rel="icon" href="../public/assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue" rel="stylesheet" />

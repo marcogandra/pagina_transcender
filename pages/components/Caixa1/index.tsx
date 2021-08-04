@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import mulher1 from "../../../public/assets/mulher01.png"
 import {
   UncontrolledCarousel,
   Row,
@@ -16,14 +18,7 @@ const Caixa1 = (props) => {
     <>
 
       <style>{` 
-        .menu {
-          padding: 0px;
-          margin: 0px;
-          /* centraliza na vertical */
-          float: right;
-          display: flex; 
-          color: #f00;
-        }
+
 
 
         div[name="cartao_caixa1"] {
@@ -49,8 +44,6 @@ const Caixa1 = (props) => {
 
         div[name="Texto_Card_Caixa1"] {
           margin: 0; 
-          
-             
         }    
 
 
@@ -74,6 +67,19 @@ const Caixa1 = (props) => {
 
         .bgImagem_Caixa1{
           background: url("./assets/mulher01.png") left center no-repeat;
+        } 
+        
+        .image_mulhe1{
+          position:absolute; 
+          bottom: 0; 
+          margin: 0;
+          padding: 0;  
+          display: flex;        
+        }
+
+        @media (max-width: 1000px) {
+          .image_mulhe1{display: none;}
+
         }        
 
       `}</style>
@@ -83,12 +89,14 @@ const Caixa1 = (props) => {
           <TabContent id="myTabContent" activeTab={hTabsIcons}>
             <TabPane tabId="hTabsIcons-1" role="tabpanel">
 
-              <div className="bgImagem_Caixa1">
+              <div >
 
                 <div className="container-fluid" >
                   <div className="row" >
-                    <div className="col-md-6" >
-
+                    <div className="col-md-6 " >
+                      <span className="image_mulhe1">
+                        <Image src={mulher1} alt="Transcender Studios" />  
+                      </span>
                     </div >
                     <div className="col-md-6" >
                       <p className="Texto_Caixa1">
