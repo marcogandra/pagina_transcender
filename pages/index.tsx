@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Cabecalho from './components/Cabecalho'
 import Social from './components/Social'
 import Carrocel from './components/Carrocel'
+import Caixa1  from './components/Caixa1'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
                 <Cabecalho />
                 <Social />
                 <Carrocel />
+                <Caixa1 />
               </div>
 
               <div className="col-md-1" >
