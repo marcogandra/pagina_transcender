@@ -1,0 +1,36 @@
+.logo {
+    width: 60%;
+    margin-top: 0rem !important;   
+    padding: 10px; 
+    min-width: 30;
+    height: auto;
+    }     
+
+.bandeira {
+    width: 20%;
+}     
+
+.cartao {
+    padding: 10;
+    margin: 0;
+    background-color: #F8F9FA;          
+}
+
+.hover_link:hover {
+    color: #fff;
+    text-shadow: 2px 3px 5px #cecece;
+}  
+
+.menu {
+
+    background-color: #F00; 
+
+    padding: 0px;
+    margin: 0px;
+
+    /* centraliza na vertical */
+    float: right;
+    display: flex; 
+      
+
+}

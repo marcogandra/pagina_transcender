@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Principal.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import Cabecalho from './components/Cabecalho'
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue" rel="stylesheet" />
+
       </Head>
 
       <main >
@@ -27,7 +28,7 @@ export default function Home() {
               </div>
 
               <div className="col-md-10 principal">
-                2
+                <Cabecalho />
               </div>
 
               <div className="col-md-1" >
