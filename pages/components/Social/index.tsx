@@ -29,6 +29,11 @@ function Social () {
         .social {
           color:#fff
         }
+
+        .social:hover {
+          color: #fff;
+          text-shadow: 3px 3px 10px #000;
+        }        
       `}</style>
 
       <Card className="shadow" >

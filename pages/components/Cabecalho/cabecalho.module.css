@@ -22,15 +22,16 @@
 }  
 
 .menu {
-
-    background-color: #F00; 
-
     padding: 0px;
     margin: 0px;
-
     /* centraliza na vertical */
     float: right;
     display: flex; 
-      
+}
 
+.lingua {
+    display: flex;
+    align-items: center; 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

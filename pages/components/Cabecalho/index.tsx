@@ -53,6 +53,7 @@ const Cabecalho = (props) => {
               <div className="row" > &nbsp;</div>
               <div className="row" > &nbsp;</div>
               <div className="row" > &nbsp;</div>
+              <div className="row" > &nbsp;</div>              
               
 
               <Navbar color="light" light expand="md" className={styles.menu}>
@@ -76,18 +77,28 @@ const Cabecalho = (props) => {
                         Language
                       </DropdownToggle>
                       <DropdownMenu right>
+
                         <DropdownItem>
-                          <Image src={us} alt="English" width={20} height={20}/>{'  '}
-                          English
+                          <p className={styles.lingua}>                          
+                            <Image src={us} alt="English" width={20} height={20}/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;English
+                          </p>
                         </DropdownItem>
+
                         <DropdownItem>
-                          <Image src={mx} alt="Español" width={20} height={20}/>{'  '}
-                          Español
+                          <p className={styles.lingua}>
+                            <Image src={mx} alt="Español" width={20} height={20}/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Español
+                          </p>
                         </DropdownItem>
+
                         <DropdownItem>
-                          <Image src={br} alt="Português" width={20} height={20}/>{'  '}
-                          Português
+                          <p className={styles.lingua}>                          
+                            <Image src={br} alt="Português" width={20} height={20}/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Português
+                          </p>  
                         </DropdownItem>
+
                       </DropdownMenu>
                     </UncontrolledDropdown>
 
